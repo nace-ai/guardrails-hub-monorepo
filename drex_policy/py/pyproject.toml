@@ -7,11 +7,10 @@ authors = [
 license = "MIT"
 description = "Checks text, or text with images, against a Drex noul or score question and fails when the answer crosses a threshold."
 readme = "README.md"
-# nace-sdk requires Python 3.11 or later.
-requires-python = ">= 3.11,<4"
+requires-python = ">= 3.10,<4"
 dependencies = [
     "guardrails-ai>=0.4.0",
-    "nace-sdk>=0.4.0",
+    "nace-sdk>=0.6.2",
 ]
 
 [project.optional-dependencies]
