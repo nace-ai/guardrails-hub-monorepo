@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = [
     {name = "Nace.AI"}
 ]
-license = "Apache-2.0"
+license = "MIT"
 description = "Checks text, or text with images, against a Drex noul or score question and fails when the answer crosses a threshold."
 readme = "README.md"
 # nace-sdk requires Python 3.11 or later.

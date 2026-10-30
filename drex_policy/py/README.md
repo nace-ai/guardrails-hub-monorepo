@@ -9,7 +9,7 @@ Checks text, or text with images, against a Drex noul or score question and fail
 | Date of development | Oct 29, 2026 |
 | Validator type | Moderation, policy |
 | Blog |  |
-| License | Apache-2.0 |
+| License | MIT |
 | Input/Output | Input, Output |
 
 ## Description
@@ -157,3 +157,9 @@ If Drex cannot answer (a network error, an API error, or a response without the 
 | `drex_question_id` | The `question_id` |
 | `drex_answer` | The Drex answer, for example `{"type": "noul", "noul": 0.93}` |
 </ul>
+
+## License
+
+MIT — © 2026 Nace.AI.
+
+Scaffolding from [guardrails-ai/validator-template](https://github.com/guardrails-ai/validator-template) (Apache-2.0).
